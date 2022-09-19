@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.wrapper{
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.cabecera{
+    background-color: white;
+    display: flex;
+    justify-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 350px;
+}
+
+.login-registro a{
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(3, 76, 140, 1);
+    font-size: 16px;
+}
+
+.login-registro a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: rgba(3, 76, 140, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px 0px;
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(35, 98, 138, 1);
+}
+
+.navbar #quienes-somos{
+    background-color: rgba(35, 98, 138, 1);
+}
+
+.contenido{
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    height: 550px;
+}
+
+.contenido .imagen img{
+    width: 456px;
+    height: 100%;
+}
+
+.contenido .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.contenido .texto {
+    font-size: 20px;
+}
+
+.contenido .texto h2{
+    font-size: 32px;
+    margin: 20px 0px 25px;
+}
+
+.contenido .quienes-somos, .valores{
+    padding: 15px;
+    width: 90%;
+}
+
+.contenido .valores .valores-iconos {
+    display: flex;
+}
+
+.contenido .valores .valores-iconos .icono{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.contenido .valores .valores-iconos label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    color: rgba(35, 98, 138, 1);
+    font-size: 14px;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="/styles/styleregistro.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="/index.html"><img src="/images/Logo 2.png" alt=""></a>
+        </div>
+        <div class="cont-registro">
+            <div class="cabecera-registro">
+                <h1>Regístrate</h1>
+                <span>Clínica San Martín</span>
+            </div>
+            <div class="cajita">
+                <form class="form" action="">
+                    <select name="tipo-doc" id="" class="select" autofocus>
+                        <option disabled selected value="">Tipo de documento</option>
+                        <option value="cc">Cédula de ciudadanía</option>
+                        <option value="ti">Tarjeta de identidad</option>
+                    </select>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Número de identificación" required>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Fecha de nacimiento MM/DD/AAAA" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    </div>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Nombres" required autofocus>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Apellidos" required autofocus>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="password" placeholder="Contraseña" required autofocus>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="password" placeholder="Confirmar contraseña" required>
+                    </div>
+                    <select name="sexo" id="" class="select">
+                        <option disabled selected value="">
+                            Sexo
+                        </option>
+                        <option value="fem">
+                            Femenino
+                        </option>
+                        <option value="mas">
+                            Masculino
+                        </option>
+                        <option value="otro">
+                            Otro
+                        </option>
+                    </select>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Teléfono celular" required autofocus>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Dirección" required>
+                    </div>
+                    <div class="form-elementos">
+                        <input type="text" placeholder="Ciudad" required>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox" required> <label for="checkbox">Acepto los Términos del servicio y la Política de privacidad y ley de datos personales</label>
+                    </div>
+                    <button type="submit">Registrarme</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-registro">
+            ¿Ya tienes una cuenta?
+            <a href="/pages/login.html">Iniciar sesión</a>
+        </div>
+    </div>
+</body>
+<!--<footer>© Copyright 2022 Clínica San Martín - Todos los derechos reservados.</footer>-->
+</html>

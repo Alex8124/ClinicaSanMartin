@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(242, 242, 242, 1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 450px;
+}
+
+.logo{
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 14px;
+    width: 100%;
+}
+
+.logo img{
+    width: 402px;
+    height: 96px;
+}
+
+.cont-registro{
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 100%;
+    padding: 15px;
+}
+
+.cabecera-registro{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.cabecera-registro h1{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.cabecera-registro span{
+    color: rgba(126, 125, 130, 1);
+    font-size: large;
+    margin-top: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-elementos input, select, button{
+    border: 1px solid rgba(242, 242, 242, 1);
+    outline: none;
+    width: 400px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(126, 125, 130, 1);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-elementos input{
+    border-bottom: 1px solid rgba(3, 76, 140, 1);
+}
+
+.form-elementos input:focus, select:focus{
+    border: 1px solid rgba(3, 76, 140, 1);
+}
+
+.form-elementos input:defined{
+    color: black;
+}
+
+select{
+    width: 417px;
+}
+
+.form .checkbox {
+    display: flex;
+    align-items: baseline;
+    font-size: small;
+    width: 400px;
+}
+
+.form button{
+    background-color: rgba(3, 76, 140, 1);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    width: 417px;
+    margin-bottom: 20px;
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+.footer-registro{
+    font-size: small;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(126, 125, 130, 1);
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+    margin: 20px;
+}
+
+.footer-registro a{
+    text-decoration: none;
+    color: rgba(3, 76, 140, 1);
+}
+
+.footer-registro a:hover{
+    text-decoration: underline;
+}

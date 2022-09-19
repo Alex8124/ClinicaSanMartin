@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="/styles/stylelogin.css">
+</head>
+<body>
+    <div class="wrapper">    
+        <div class="logo">
+            <a href="/index.html"><img src="/Vistas/Logo 2.png" alt="Logo" class="logo"></a>
+        </div> 
+        <div class="inicio-sesion">
+            <div class="cabecera-inicio-sesion">
+                <h1>Iniciar sesión</h1>
+                <span>Clínica San Martín</span>
+            </div>
+            <form action="" class="form-inicio-sesion">
+                <div class="form-elementos">
+                    <select name="tipo-doc" id="" class="tipoId">
+                        <option value="" disabled selected>Tipo de documento</option>
+                        <option value="cc">Cédula de ciudadanía</option>
+                        <option value="ti">Tarjeta de identidad</option>
+                    </select>
+                </div>
+                <div class="form-elementos">
+                    <input type="text" placeholder="Número de identificación" required autofocus>
+                </div>
+                <div class="form-elementos">
+                    <input type="password" placeholder="Contraseña" required>
+                </div>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+        <div class="footer-inicio-sesion">
+            ¿No tienes una cuenta? <a href="/pages/registro.html">Regístrate</a>
+        </div>
+    </div>
+</body>
+</html>
