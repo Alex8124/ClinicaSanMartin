@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link href="StyleInterfazPaciente.css" rel="stylesheet">
+    <link rel="font-open-sans" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27);">
+</head>
+<body>
+<!--ENCABEZADO-->
+<header>
+<div class="headed-c" >
+    <img id="logo"  class="headed" src="logoSanMartin.jfif"  alt="Logo Clínica San Martín">
+    <a href="" id="cerrarSesion"  class="headed" rel="noopener noreferrer"> Cerrar Sesión </a>
+</div>
+</header>
+<!--PANEL DE OPCIONES-->
+<nav>
+    <a href="agendamientoCitas.html"class="opciones" id="agendamiento" rel="noopener noreferrer"> Agendamiento de citas</a>
+    <a href="Comentarios.html" class="opciones" id="retroalimentacion" rel="noopener noreferrer"> Retroalimentación profesional de la salud </a>
+    <a href="" class="opciones" id="calificacion" rel="noopener noreferrer"> Califica nuestro servicio</a>
+</nav>
+<h3 id="intro">Señor usuario:</h3>
+<hr><br>
+<p id="txt">Le solicitamos realizar una evalución del servicio recibido con el fin de efectuar mejoras de su interés</p>
+<br><hr><br>
+<h4 class="sub-title">Califique la atención recibida seleccionando una de las siguientes opciones</h4>
+<div class="calificación-radio">
+    <form action="/calificacion-paciente">
+      <label for="buena"><input id="buena" type="radio" name="buena-mala"> Buen </label>
+      <label for="regular"><input id="regular" type="radio" name="buena-mala"> Mejorable</label>
+      <label for="mala"><input id="mala" type="radio" name="buena-mala"> Mala</label> 
+      
+</div>
+<br>
+<hr>
+<h4 class="sub-title">Comentario:</h4>
+
+    <input id="cuadro-txt" type="text" placeholder="Escriba su sugerencia u opinión">
+            
+              <button id="bttn" type="submit"> Enviar</button>
+   
+  <br>
+  <br>
+  <h5 class="notas">Recuerde enviar su calificación al finalizar, muchas gracias por su colaboracion, esperamos volver a atenderlo prontamente</h5>
+            
+</form>
+
+</body>
+</html>
+<footer>
+    <h5 id="footertxt">Copyright Clínica San Martín- Todos los derechos reservados</h5>
+</footer>

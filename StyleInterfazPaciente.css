@@ -1,0 +1,356 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27);
+*{
+    margin:0;
+    padding: 0;
+}
+headed{
+
+    z-index: 80;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    
+    background-color: rgb(248, 247, 246);
+    
+    
+}
+
+.headed-c{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    justify-content: space-between;
+    display:flex;
+    margin:0%;
+    align-items: center;
+    background-color: rgb(248, 247, 246);
+    
+}
+#logo{
+
+    position: relative;
+    width: 420px;
+   
+    background: url(LogoSanMartin.png);
+    margin-top: 0;
+    padding-top: 0;
+    width: 402px;
+    height: 80px;
+    
+
+}
+#cerrarSesion{
+    position: relative;
+    width:50% ;
+    height: 100%;
+    left:40%;
+    margin-right: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #034C8C;
+    background-color: rgb(248, 247, 246);
+    padding-bottom: 0;
+
+}
+.opciones{
+    position: relative;
+    background: #034C8C;
+    padding: 1% 2%;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9%;
+    
+}
+.opciones:hover{
+    background-color: #1a64a5;
+}
+nav{
+    background-color: #023563;
+    padding: 1%;
+    
+}
+
+#agendamiento{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #ffffff;
+    align-items: center;
+
+}
+.especialista{
+    align-items: center;
+    justify-content:space-between;
+    margin: 0;
+
+}
+#asignacion-citas{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 25px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+    padding-left: 20%;
+}
+#title-disponibilidad{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(252, 245, 236);
+    border-color: rgb(196, 127, 38);
+    border-width: 50%; 
+    padding-left: 20%;
+}
+#txt-medico{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+    padding-left: 20%;
+}
+#medico-title{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+    padding-left: 20%;
+}
+
+#profesional-listado{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #ffffff;
+    align-items: center;
+    padding: 0.5% 1%;
+    background-color:#1a64a5;
+    justify-content:space-around;
+    padding-left: 20%;
+}
+
+#title-fechas{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(252, 245, 236);
+    border-color: rgb(196, 127, 38);
+    border-width: 50%; 
+    justify-content:left;
+    display:flex;
+    padding-left: 20%;
+}
+#calendario{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+    padding: 1%;
+    background-color:#034C8C;
+    border-color:#023563 ;
+    border-width: 50%; 
+    margin-left: 10%;
+    padding-left: 20%;
+}
+#bttn{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #023563;
+    align-items: center;
+    padding: 0.5%;
+    background-color:aliceblue;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+
+#retroalimentacion{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    width:30%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+#comentarios{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 25px;
+    color: #023563;
+    background-color: rgb(252, 245, 236);
+    align-items: center;
+    padding: 1%;
+}
+#txt-comentarios{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+}
+.tabla-comentarios, td{
+    box-sizing: border-box;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #023563;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% ;
+    justify-content: space-between;
+    background-color:aliceblue;
+    border-style: groove;
+    border-color: #034C8C;
+    border: 4px solid #023563;
+    
+}
+#title-comentarios{
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 18px;
+    color:#fafafa;
+    align-items: center;
+    padding: 0.5% 5%;
+    background-color:#1a64a5;
+    margin-left: 15%;
+    padding: 2%;
+
+    
+}
+#calificacion{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    align-items: center;
+    color: #ffffff; }
+#intro{
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 22px;
+    color:#fafafa;
+    align-items: center;
+    padding: 0.5% 5%;
+    background-color:#1a64a5;
+
+}
+#txt{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 18px;
+    color: #023563;
+    align-items: center;
+    padding: 0.5% 5%;
+}
+.sub-title{
+    position: relative;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 18px;
+    color: #023563;
+    align-items: center;
+    padding: 1%;
+}
+.calificación-radio{
+    box-sizing: border-box;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #023563;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% ;
+    justify-content: space-between;
+    background-color:aliceblue;
+    border-style: groove;
+    border-color: #034C8C;
+    border: 4px solid #023563;
+}
+#cuadro-txt{
+    font-family: 'Open Sans', "sans-serif";
+    font-style: normal;
+    font-size: 15px;
+    color: #023563;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    box-sizing: content-box;
+    min-height: 30%;
+}
+.notas{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 28%; 
+    margin-top: 1%;
+    color: #034C8C;
+    background-color: aliceblue;
+    text-decoration-style: solid;
+}
+footer{
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 100%;
+    width: 1367px;
+    height: 48px;
+    background: #fafafa;
+}
+#footertxt{
+    position: absolute;
+    width: 658px;
+    height: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    margin-left: 28%; 
+    margin-top: 1%;
+    color: #034C8C;
+
+}
+
+
+
+

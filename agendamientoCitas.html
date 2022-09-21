@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="StyleInterfazPaciente.css" rel="stylesheet">
+    <title>Agendamiento citas </title>
+</head>
+<div class="headed-c" >
+    <img id="logo"  class="headed" src="logoSanMartin.jfif"  alt="Logo Clínica San Martín">
+    <a href="" id="cerrarSesion"  class="headed" rel="noopener noreferrer"> Cerrar Sesión </a>
+</div>
+</header>
+<!--PANEL DE OPCIONES-->
+<nav>
+    <a class="opciones" id="agendamiento" rel="noopener noreferrer"> Agendamiento de citas</a>
+    <a href="Comentarios.html" class="opciones" id="retroalimentacion" rel="noopener noreferrer"> Retroalimentación profesional de la salud </a>
+    <a href="calificacionPaciente.html" class="opciones" id="calificacion" rel="noopener noreferrer"> Califica nuestro servicio</a>
+</nav>
+
+    
+<div class="especialista">
+    <h2 id="asignacion-citas"><em>Asignación de citas</em></h2>
+    <hr>
+    <h3 id="title-disponibilidad" >Disponibilidad de especialistas en salud</h3>
+    <p id="txt-medico">Escoja su medico de preferencia</p>
+    <form action="/medico elegido"> 
+    <p id="medico-title">Profesional:
+       <select name="profesional" id="profesional-listado">
+        <option value="1">Name1</option>
+        <option value="2">Name2</option>
+        <option value="3">Name3</option>
+        <option value="4">Name4</option>
+       </select>
+       
+    </p>
+
+    <hr>
+
+    <h3 id="title-fechas">Selecciona la fecha:
+   
+    <input id="calendario" type="date" name="cumpleanios" step="1" min="2022-09-20" max="2022-12-31" value="2022-09-20"></h3>
+</div>
+
+<button id="bttn" type="submit"> Confirmar </button>
+    </form> 
+
+
+
+</body>
+</html>
+<footer>
+    <h5 id="footertxt">Copyright Clínica San Martín- Todos los derechos reservados</h5>
+</footer>
