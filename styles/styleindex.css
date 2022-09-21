@@ -7,15 +7,13 @@
 }
 
 body{
-    position: relative;
     display: grid;
-    min-height: 100vh;
-    align-items: stretch;
-    justify-content: space-around;
+    height: 100vh;
 }
 
 .wrapper{
     background-color: rgba(242, 242, 242, 1);
+    height: 100%;
 }
 
 .cabecera{
@@ -68,6 +66,7 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .navbar a:hover{
@@ -80,14 +79,28 @@ body{
 
 .contenido{
     display: flex;
-    margin: 20px;
+    margin: auto;
     background-color: white;
-    height: 550px;
+    min-height: 550px;
+    margin: 30px 20px 30px;
 }
 
 .contenido .imagen img{
     width: 456px;
     height: 100%;
+}
+
+@media (max-width: 600px){
+
+    .contenido .imagen img{
+        display: none;
+    }
+
+    .contenido .valores .valores-iconos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .contenido .texto{
@@ -133,13 +146,10 @@ body{
 }
 
 footer {
-    display: flex;
+    display: grid;
     text-align: center;
     background-color: white;
     color: rgba(35, 98, 138, 1);
     font-size: 14px;
-    height: 50px;
-    justify-content: center;
-    align-items: flex-end;
-    bottom: 0;
+    align-items: center;
 }
