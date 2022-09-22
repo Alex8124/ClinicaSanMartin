@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    background-color: white;
+    display: flex;
+    justify-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 350px;
+}
+
+.navbar{
+    background-color: rgba(3, 76, 140, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+/*
+.centrado {
+    text-align: center;
+    vertical-align: middle;
+}
+*/
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    color: rgba(35, 98, 138, 1);
+    font-size: 14px;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+#descripcion {
+    resize: none;
+}
+
+
+
+.login-registro a{
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(3, 76, 140, 1);
+    font-size: 16px;
+}
+
+.login-registro a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: rgba(3, 76, 140, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px 0px;
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(35, 98, 138, 1);
+}
+
+.navbar #quienes-somos{
+    background-color: rgba(35, 98, 138, 1);
+}
+
+/*BARRA LATERAL*/
+
+.barra-lateral {
+    background: #252121;
+    color: #fff;
+    min-width: 250px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.barra-lateral a {
+    color: #fff;
+}
+
+/*ESTILOS MENU*/
+
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #003C5D;
+    text-decoration: none;
+}
+
+.active {
+    background: #003C5D;
+}
+
+.barra-lateral .menu {
+    border-top: 5px #fff solid;
+}
+
+.barra-lateral .menu a i {
+    margin-right: 20px;
+}
+
+
+/*MAIN*/
+
+.main {
+    padding-top: 40px;
+}
+
+.main .columna {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*mediaquerys*/
+
+/*
+@media screen and (min-width:1301px) and (max-width:1440px) {
+    #login-registro-lateral{
+        display: none;
+    }
+}
+*/
+@media screen and (max-width:1300px) {
+    
+    .barra-lateral {
+        min-width: auto;
+    }
+    .barra-lateral .menu a span {
+        display: none;
+    }
+    .barra-lateral .menu a i {
+        margin: 0;
+    }
+    .barra {
+        min-width: auto;
+    }
+    .dropdown-menu {
+        margin: 20px -79px 0px;
+    }
+    .cabecera {
+        min-width: auto;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        min-height: auto;
+    }
+    .barra-lateral .menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78px 0px;
+    }
+    .logocppe {
+        width: 100%;
+    }
+    body {
+        background: #D3D3D3;
+        font-size: 16px;
+        overflow: visible;
+    }
+    .cabecera {
+        min-width: auto;
+    }
+}
+
+.formulariorecursos {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.menu {
+    border-top: 5px #fff solid;
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        height: auto;
+    }
+    .barra-lateral.menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78 0px;
+    }
+    body {
+        font-size: 16px;
+        overflow: visible;
+    }
+
+    .cabecera {
+        min-width: auto;
+    }
+
+}
+
+/* CSS Pastel Dashboard*/
+
+#grafica {
+    margin: 0 auto;
+  }
